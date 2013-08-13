@@ -21,12 +21,12 @@ company_data = []
 #loop through the companies array and append responses to company_data array
 for x in range(0, len(companies)):
 	print 'Getting data for company ' + str(x + 1) + ': ' + companies[x]
-	response = json.load(urlopen('http://api.crunchbase.com/v/1/company/' + companies[x] + '.js?api_key=b6erucspnpp9pghb2xxtthn4'))
+	response = json.load(urlopen('http://api.crunchbase.com/v/1/company/' + companies[x] + '.js?api_key=000000000000000000000000'))
 	company_data.append(response)
 
 #make database connection to mysql
 try:
-	con = mdb.connect('localhost', 'ftb', 'ftbpw', 'findthebest');
+	con = mdb.connect('localhost', 'user', 'password', 'database');
 
 except mdb.Error, e:
 	print "Error %d: %s" % (e.args[0],e.args[1])
