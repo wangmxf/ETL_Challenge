@@ -11,9 +11,9 @@ There were 4 objectives:
 
 A list of companies were provided. These are already loaded to the __crunchBase_companies.py__ script.
 
-Start here: _SQLQueries_Companies.sql_
+_Start here:_ _SQLQueries_Companies.sql_
 The comments in the document will step you through how the work was completed and indicate when the Python scripts should be executed.
 
-NOTE: The scripts have had the DB connections and API key generalized, so these will all need to be changed in order to actually run any of this on your own.
+_NOTE:_ The scripts have had the DB connections and API key generalized, so these will all need to be changed in order to actually run any of this on your own.
 
 I have some edits I'd like to make in the future, based on feedback that was given already. Feel free to reach out with any suggestions of your own though on how this could be improved.
